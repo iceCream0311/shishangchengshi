@@ -1,0 +1,48 @@
+<!--index.wxml-->
+<swiper indicator-dots="true"
+  autoplay="true" interval="{{interval}}" duration="{{duration}}" indicator-dots="true">
+  <block wx:for="{{imgUrls}}">
+    <swiper-item>
+      <image src="{{item}}" class="slide-image"/>
+    </swiper-item>
+  </block>
+</swiper>
+<view class='content'>
+<view class="title">产品展示</view>
+<view class='stitle'>灯箱牌系列</view>
+<view class='product'>
+<view class='product-banner'>
+  <image src='../../images/banner_01.jpg'></image>
+ </view>
+ <view class='product-detail'>
+ <image src='../../images/detail.jpg'></image>
+ <image src='../../images/detail.jpg'></image>
+ <image src='../../images/detail.jpg'></image>
+ <image src='../../images/detail.jpg'></image>
+ </view>
+</view>
+<view class='stitle'>灯箱牌系列</view>
+<view class='product'>
+<view class='product-banner'>
+  <image src='../../images/banner_01.jpg'></image>
+ </view>
+ <view class='product-detail'>
+ <image src='../../images/detail.jpg'></image>
+ <image src='../../images/detail.jpg'></image>
+ <image src='../../images/detail.jpg'></image>
+ <image src='../../images/detail.jpg'></image>
+ </view>
+</view>
+</view>
+<!-- <view class="container">
+  <view class="userinfo">
+    <button wx:if="{{!hasUserInfo && canIUse}}" open-type="getUserInfo" bindgetuserinfo="getUserInfo"> 获取头像昵称 </button>
+    <block wx:else>
+      <image bindtap="bindViewTap" class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+      <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+    </block>
+  </view>
+  <view class="usermotto">
+    <text class="user-motto">{{motto}}</text>
+  </view>
+</view> -->
