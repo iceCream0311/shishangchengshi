@@ -4,58 +4,91 @@ const app = getApp()
 
 Page({
   data: {
+    product:[
+      {
+        "title":"灯箱牌匾系列",
+        "img":[
+          "../../images/lamp (2).jpg",
+          "../../images/lamp (1).jpg",
+          "../../images/lamp (3).jpg",
+          "../../images/lamp (4).jpg",
+          "../../images/lamp.jpg",
+        ]
+      }, {
+        "title":"店面/公司装饰",
+        "img": [
+          "../../images/store (3).jpg",
+          "../../images/store (1).jpg",
+          "../../images/store (2).jpg",
+          "../../images/store (4).jpg",
+          "../../images/store.jpg"
+        ]
+      }, {
+        "title": "儿童教育装饰",
+        "img": [
+          "../../images/children (2).jpg",
+          "../../images/children (1).jpg",          
+          "../../images/children (3).jpg",
+          "../../images/children (5).jpg",
+          "../../images/children (4).jpg"
+        ]
+      }
+      , {
+        "title": "广告印刷系列",
+        "img": [
+          "../../images/ad (4).jpg",
+          "../../images/ad (2).jpg",
+          "../../images/ad (3).jpg",
+          "../../images/ad (5).jpg",
+          "../../images/ad (1).jpg"
+        ]
+      }, {
+        "title": "楼体大字系列",
+        "img": [
+          "../../images/font (3).jpg",
+          "../../images/font (2).jpg",
+          "../../images/font (4).jpg",
+          "../../images/font (5).jpg",
+          "../../images/font (1).jpg"
+        ]
+      }, {
+        "title": "展览展示系列",
+        "img": [
+          "../../images/portrait (5).jpg",
+          "../../images/portrait (2).jpg",
+          "../../images/portrait (4).jpg",
+          "../../images/portrait (1).jpg",
+          "../../images/portrait (3).jpg"
+        ]
+      }, {
+        "title": "围墙广告系列",
+        "img": [
+          "../../images/wall (1).jpg",
+          "../../images/wall (2).jpg",
+          "../../images/wall (4).jpg",
+          "../../images/wall (5).jpg",
+          "../../images/wall (3).jpg"
+        ]
+      }, {
+        "title": "喷绘写真系列",
+        "img": [
+          "../../images/pen (1).jpg",
+          "../../images/pen (2).jpg",
+          "../../images/pen (4).jpg",
+          "../../images/pen (5).jpg",
+          "../../images/pen (3).jpg"
+        ]
+      }
+    ],
     imgUrls: [
-      'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
-      'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
+      "../../images/caseBanner (2).jpg"
+      // 'http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg',
+      // 'http://img06.tooopen.com/images/20160818/tooopen_sy_175866434296.jpg',
+      // 'http://img06.tooopen.com/images/20160818/tooopen_sy_175833047715.jpg'
     ],
     interval: 5000,
     duration: 1000
-    // motto: 'Hello World',
-    // userInfo: {},
-    // hasUserInfo: false,
-    // canIUse: wx.canIUse('button.open-type.getUserInfo')
-  },
-  //事件处理函数
-  bindViewTap: function() {
-    // wx.navigateTo({
-    //   url: '../logs/logs'
-    // })
-  },
-  onLoad: function () {
-    // if (app.globalData.userInfo) {
-    //   this.setData({
-    //     userInfo: app.globalData.userInfo,
-    //     hasUserInfo: true
-    //   })
-    // } else if (this.data.canIUse){
-    //   // 由于 getUserInfo 是网络请求，可能会在 Page.onLoad 之后才返回
-    //   // 所以此处加入 callback 以防止这种情况
-    //   app.userInfoReadyCallback = res => {
-    //     this.setData({
-    //       userInfo: res.userInfo,
-    //       hasUserInfo: true
-    //     })
-    //   }
-    // } else {
-    //   // 在没有 open-type=getUserInfo 版本的兼容处理
-    //   wx.getUserInfo({
-    //     success: res => {
-    //       app.globalData.userInfo = res.userInfo
-    //       this.setData({
-    //         userInfo: res.userInfo,
-    //         hasUserInfo: true
-    //       })
-    //     }
-    //   })
-    // }
+    
   }
-  // getUserInfo: function(e) {
-  //   console.log(e)
-  //   app.globalData.userInfo = e.detail.userInfo
-  //   this.setData({
-  //     userInfo: e.detail.userInfo,
-  //     hasUserInfo: true
-  //   })
-  // }
+ 
 })

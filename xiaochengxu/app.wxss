@@ -9,5 +9,5 @@
   box-sizing: border-box;
 } 
 .content{
-  padding:0 15rpx;
+  padding:0 30rpx;
 }

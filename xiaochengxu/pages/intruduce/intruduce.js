@@ -5,15 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-    markers: [{
-      iconPath: "../../images/address_red.png",
-      id: 0,
-      latitude: 23.099994,
-      longitude: 113.324520,
-      width: 30,
-      height: 30
-    }]
-    
+   
   },
 
   /**

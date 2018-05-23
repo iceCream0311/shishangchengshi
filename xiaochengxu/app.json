@@ -1,14 +1,16 @@
 {
   "pages":[
-    "pages/intruduce/intruduce",
-    "pages/index/index",
-    "pages/logs/logs"
+    "pages/social/social",
     
+    "pages/index/index",
+    "pages/intruduce/intruduce",
+    
+    "pages/logs/logs"    
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#57aaff",
-    "navigationBarTitleText": "时尚城市",
+    "navigationBarTitleText": "webchat",
     "navigationBarTextStyle":"#fff"
   },
   "tabBar": {
@@ -27,6 +29,12 @@
         "iconPath": "images/intruduce.png",
         "pagePath": "pages/intruduce/intruduce",
         "text": "公司简介"
+      },
+      {
+        "selectedIconPath": "images/social_active.png",
+        "iconPath": "images/social.png",
+        "pagePath": "pages/social/social",
+        "text": "联系我们"
       }
     ]
   }
