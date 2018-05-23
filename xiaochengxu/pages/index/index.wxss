@@ -12,7 +12,7 @@ swiper-item image{
   font-size: 40rpx;
   margin-top: 52rpx;
   padding-left:15rpx;
-  border-left: 6rpx solid #57aaff;
+  border-left: 8rpx solid #57aaff;
 }
 
 .stitle{

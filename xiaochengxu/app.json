@@ -1,16 +1,14 @@
 {
   "pages":[
-    "pages/social/social",
-    
     "pages/index/index",
-    "pages/intruduce/intruduce",
-    
+    "pages/social/social",
+    "pages/intruduce/intruduce",    
     "pages/logs/logs"    
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#57aaff",
-    "navigationBarTitleText": "webchat",
+    "navigationBarTitleText": "时尚城市",
     "navigationBarTextStyle":"#fff"
   },
   "tabBar": {

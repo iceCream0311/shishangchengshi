@@ -5,6 +5,7 @@
 }
 .content .title{
   color:#57aaff;
+  padding-top: 30rpx;
   font-size: 38rpx;
   line-height: 2;
 }
